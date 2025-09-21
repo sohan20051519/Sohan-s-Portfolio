@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "title": "AI-Powered Portfolio",
+    "description": "A personal portfolio website built with Next.js and Tailwind CSS, featuring a dynamic data-driven interface.",
+    "technologies": ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+    "image_url": "/images/project-portfolio.png",
+    "live_url": "https://my-portfolio.com",
+    "github_url": "https://github.com/sohan2005151/my-portfolio",
+    "featured": true,
+    "created_date": "2023-10-26T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "E-commerce Platform",
+    "description": "A full-stack e-commerce platform with features like product catalog, shopping cart, and user authentication.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "image_url": "/images/project-ecommerce.png",
+    "live_url": "https://my-ecommerce.com",
+    "github_url": "https://github.com/sohan2005151/ecommerce-platform",
+    "featured": false,
+    "created_date": "2023-08-15T10:00:00Z"
+  }
+]
