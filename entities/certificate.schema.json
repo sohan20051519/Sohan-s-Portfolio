@@ -1,0 +1,38 @@
+{
+  "name": "Certificate",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Certificate title"
+    },
+    "issuer": {
+      "type": "string",
+      "description": "Issuing organization"
+    },
+    "date_issued": {
+      "type": "string",
+      "format": "date",
+      "description": "Date certificate was issued"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Certificate image URL"
+    },
+    "description": {
+      "type": "string",
+      "description": "Certificate description"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Skills learned or demonstrated"
+    }
+  },
+  "required": [
+    "title",
+    "issuer"
+  ]
+}
